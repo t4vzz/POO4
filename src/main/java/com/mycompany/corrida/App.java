@@ -9,6 +9,7 @@ import com.mycompany.corrida.model.Automovel;
 import com.mycompany.corrida.model.Carro;
 import com.mycompany.corrida.model.Corrida;
 import com.mycompany.corrida.model.Pista;
+import com.mycompany.corrida.model.Moto;
 import java.util.ArrayList;
 
 public class App {
@@ -16,13 +17,13 @@ public class App {
     public static void main ( String[] args ){
     
     Pista p = new Pista();
-    Automovel carro1 = new Carro ("Siena"); 
-    Automovel carro2 = new Carro ("Celta"); 
-    Automovel carro3 = new Carro ("Veloster"); 
+    Automovel carro1 = new Carro ("Siena "); 
+    Automovel carro2 = new Carro ("Celta "); 
+    Automovel carro3 = new Carro ("Veloster "); 
     
-    Automovel moto1 = new Carro ("XT660"); 
-    Automovel moto2 = new Carro ("TIGER 900"); 
-    Automovel moto3 = new Carro ("XRE 300");
+    Automovel moto1 = new Moto ("XT660 "); 
+    Automovel moto2 = new Moto ("TIGER 900 "); 
+    Automovel moto3 = new Moto ("XRE 300 ");
     
     ArrayList<Automovel> participantes = new ArrayList();
     

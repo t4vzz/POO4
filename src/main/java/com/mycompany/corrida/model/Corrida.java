@@ -25,7 +25,7 @@ public class Corrida {
     
     private void liguemSeusMotores(){
         for (Automovel a : this.automoveis){
-            System.out.println(a.acelerar());
+            System.out.println(a.modelo + a.acelerar());
         }
     }
     
